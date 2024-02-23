@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="css/style.min.css">
+    <title>SPIKS</title>
+</head>
+<body>
+    <main>
+        <section class="section__start">
+    <header >
+    <h2 class="logo-name">Marketplace</h2>
+    <input 
+type="text" 
+class="serch-input" 
+placeholder="search for a product, flower, etc">
+    <nav class="menu">
+    <input id="menu-toggle" type="checkbox" />
+    	<label class='menu-button-container' for="menu-toggle">
+    	<div class='menu-button'></div>
+  		</label>
+    <ul class="menu__list">
+        <li class="menu__list-item"><img src="../src/img/Vector.svg" alt="list"><span>Buds</span></li>
+        <li class="menu__list-item"><img src="../src/img/Vector.svg" alt="list"><span>Edible</span></li>
+        <li class="menu__list-item"><img src="../src/img/Vector.svg" alt="list"><span>Non Edible</span></li>
+        <li class="menu__list-item"><img src="../src/img/Vector.svg" alt="list"><span>Concentrate</span></li>
+    </ul>
+    
+</nav>
+</header>
+    <div class="sorting">
+      <div class="range-slider__wrapper">
+        <div class="wrapper">
+  <div class="range-input__name">Price Range</div>
+  <div class="slider">
+    <div class="progress"></div>
+  </div>
+  <div class="range-inputs">
+    <input type="range" class="range-min" min="0" max="10000" value="2500" step="100">
+    <input type="range" class="range-max" min="0" max="10000" value="7500" step="100">
+  </div>
+  <div class="price-input">
+    <div class="field">
+      <input type="number" class="input-min" value="2500">
+    </div>
+    <div class="field">
+      <input type="number" class="input-max" value="7500">
+    </div>
+  </div>
+</div>
+  <div class="range-input">
+    <div class="range-input__name">THC, %</div>
+    <div id="valueIndicator"></div>
+<input type="range" min="0" max="100" value="50"  class="styled-slider slider-progress">
+<div class="range-input__value"></div>
+</div>
+  <div class="range-input">
+    <div class="range-input__name">CBD, %</div>
+    <div id="valueIndicator"></div>
+<input type="range" min="0" max="100" value="50"  class="styled-slider slider-progress">
+<div class="range-input__value"></div>
+</div>
+  <div class="wrapper-nose">
+    <div class="range-input__name">Nose</div>
+    <div class="column-wrapper">
+      <span class="column">
+
+      </span>
+      <span class="column">
+
+      </span><span class="column">
+
+
+      </span>
+      <span class="column">
+
+      </span>
+        <span class="column">
+        
+      </span><span class="column">
+        
+      </span><span class="column">
+        
+      </span><span class="column">
+        
+      </span><span class="column">
+        
+      </span><span class="column">
+        
+      </span>
+    </div>
+
+    <div class="range-nose">
+      <span class="nose">min</span>
+      <span class="nose">max</span>
+    </div>
+    </div>
+      </div>
+   <div class="button-wrapper">
+  <button class="button-sort">
+    <img src="../src/img/Filter.png" alt="button-sort">
+  </button>
+</div>
+</div >
+<div class="results-wrapper">
+    <div class="resulrs-total">1034,5 Results</div>
+    <div class="active-labels">
+        
+    </div>
+</div>
+<ul class="sort-list">
+    <li class="sort-title">Sort by:</li>
+    <li class="sort-item"><div class="sort-img__wrapper"><img src=../src/img/data.png alt="sort-img" class="sort-img"></div>Data (New first)</li>
+      <li class="sort-item"><div class="sort-img__wrapper"><img src=../src/img/data.png alt="sort-img" class="sort-img"></div>Data (Old first)</li>
+      <li class="sort-item"><div class="sort-img__wrapper"><img src=../src/img/arrow.png alt="sort-img" class="sort-img"></div>Price (High first)</li>
+      <li class="sort-item"><div class="sort-img__wrapper"><img src=../src/img/arrow.png alt="sort-img" class="sort-img"></div>Price (Low first)</li>
+      <li class="sort-item"><div class="sort-img__wrapper"><img src=../src/img/THC.png alt="sort-img" class="sort-img"></div>Total THC (High first)</li>
+      <li class="sort-item"><div class="sort-img__wrapper"><img src=../src/img/THC.png alt="sort-img" class="sort-img"></div>Total THC (Low first)</li>
+      <li class="sort-item"><div class="sort-img__wrapper"><img src=../src/img/CBD.png alt="sort-img" class="sort-img"></div>Total CBD (High first)</li>
+      <li class="sort-item"><div class="sort-img__wrapper"><img src=../src/img/CBD.png alt="sort-img" class="sort-img"></div>Total CBD (Low first)</li>
+</ul>
+  <aside>
+    
+</aside>
+
+
+</section>
+    </main>
+    <script src="../src/js/rangeSlider.js"></script>
+    <script src="../src/js/range-input.js"></script>
+    <script src="../src/js/radio-input.js"></script>
+    <script src="../src/js/sort-list.js"></script>
+    <script src="../src/js/aside.js"></script>
+    <script src="../src/js/active-list-checkbox.js"></script>
+</body>
+</html>
