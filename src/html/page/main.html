@@ -1,0 +1,32 @@
+<section class="section__start">
+    @@include('../components/header.html',{})
+    <div class="sorting">
+      <div class="range-slider__wrapper">
+        @@include('../components/rangeSlider.html',{
+          'name': 'Price Range'
+      })
+  @@include('../components/rangeSliderOne.html',{
+      'name': 'THC, %'
+  })
+  @@include('../components/rangeSliderOne.html',{
+      'name': 'CBD, %'
+  })
+  @@include('../components/nose.html',{
+    'name': 'CBD, %'
+})
+      </div>
+   <div class="button-wrapper">
+  <button class="button-sort">
+    <img src="../src/img/Filter.png" alt="button-sort">
+  </button>
+</div>
+</div >
+@@include('../components/results.html',{
+})
+@@include('../components/sortList.html',{
+})
+  @@include('../components/aside.html',{
+  })
+
+
+</section>

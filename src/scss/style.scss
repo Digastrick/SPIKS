@@ -1,0 +1,19 @@
+//общие стили
+@import 'common.scss';
+@import 'variables.scss';
+
+//стили компонентов
+@import './components/logo.scss';
+@import './components/serchInput.scss';
+@import './components/header.scss';
+@import './components/menu.scss';
+@import './components/rangeSlider.scss';
+@import './components/rangeSliderOne.scss';
+@import './components/nose.scss';
+@import './components/sortList.scss';
+@import './components/sortItem.scss';
+@import './components/aside.scss';
+@import './components/results.scss';
+
+//стили страниц
+@import './page/main.scss';

@@ -1,0 +1,109 @@
+.sort-list li:nth-last-child(5) img{
+    transform: rotate(180deg);
+}
+.sort-list li:nth-last-child(-n + 4 ) img{
+    max-height: 8px;
+}
+.sort-list li:nth-of-type(4) img{
+    max-height: 16px;
+    max-width: 16px;
+}
+.sort-list li:nth-of-type(5) img{
+    max-height: 16px;
+    max-width: 16px;
+}
+.sort-list li:nth-last-child(4) .sort-img__wrapper::before{
+    content: url("../../src/img/LitningHigh.png");
+    position: absolute;
+    width: 9px;
+    height: 5px;
+    left:-12px;
+    top:-1px;
+}
+.sort-list li:nth-last-child(2) .sort-img__wrapper::before{
+    content: url("../../src/img/LitningHigh.png");
+    position: absolute;
+    width: 9px;
+    height: 5px;
+    left:-8px;
+    top:-1px;
+}
+.sort-list li:nth-last-child(3) .sort-img__wrapper::before{
+    content: url("../../src/img/LitningDown.png");
+    position: absolute;
+    width: 9px;
+    height: 5px;
+    right: 0;
+    bottom: 10px;
+    
+}
+.sort-list li:nth-last-child(1) .sort-img__wrapper::before{
+    content: url("../../src/img/LitningDown.png");
+    position: absolute;
+    width: 9px;
+    height: 5px;
+    right: 0;
+    bottom: 10px;
+   
+}
+
+
+.sort-list{
+    max-width: 217px;
+    width: 100vw;
+    max-height: 328px;
+    height: 100vh;
+    border-radius: 10px;
+    background-color: #212129;
+    font-family: "ProximaRegular";
+    flex-direction: column;
+    justify-content: center;
+    gap:10px;
+    -webkit-gap: 10px;
+    list-style: none;
+    display: none;
+}
+.sort-title{
+    font-size: 18px;
+    line-height: 24px;
+    padding-left: 20px;
+}
+.vision{
+    display: grid;
+    grid-row: 3/4;
+    display: grid;
+    grid-column: 16/17;
+    z-index: 2;
+}
+
+@media(max-width:1750px){
+
+    .vision{
+      grid-column:13/14;
+    }
+  }
+  @media(max-width:1470px){
+    .vision{
+      grid-column:10/11;
+      grid-row: 4/5;
+    }
+  }
+  @media(max-width:1150px){
+    .vision{
+      grid-column:8/9;
+      grid-row: 4/5;
+    }
+  }
+  @media(max-width:920px){
+    .vision{
+      grid-column:7/8;
+    }
+  }
+  @media(max-width:830px){
+    .vision{
+      position: absolute;
+      top:280px;
+      right: 20px;
+    }
+  }
+

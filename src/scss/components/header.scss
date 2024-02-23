@@ -1,0 +1,15 @@
+header{
+    max-width: 95%;
+    padding-top: 22px;
+    gap:32px;
+    -webkit-gap: 32px;
+    display: grid;
+    grid-column: 4/10;
+    grid-auto-flow: column;
+    align-items: center;
+}
+@media(max-width:1750px){
+    header{
+        grid-column: 2/8;
+    }
+}

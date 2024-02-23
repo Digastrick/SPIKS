@@ -1,0 +1,25 @@
+$color_black:#171722;
+$color_grey:#959595;
+$color_white:#FFFFFF;
+$color_blackGrey:#353542;
+$color_green:rgba(132, 213, 44,0.36);
+
+@font-face {
+    font-family: 'ProximaBold';
+    src: url('../../src/fonts/proximanova_bold.ttf') format('truetype'),
+         url('../../src/fonts/proximanova_bold.woff') format('woff'), 
+         url('../../src/fonts/proximanova_bold.woff2') format('woff2');  
+
+}
+@font-face {
+    font-family: 'ProximaSemiBold';
+    src: url('../../src/fonts/ProximaNova-Semibold.ttf') format('truetype'),
+    url('../../src/fonts/ProximaNova-Semibold.woff') format('woff'),
+    url('../../src/fonts/ProximaNova-Semibold.woff2') format('woff2'),
+}
+@font-face {
+    font-family: 'ProximaRegular';
+    src: url('../../src/fonts/proximanova_regular.ttf') format('truetype'),
+    url('../../src/fonts/proximanova_regular.woff') format('woff'),
+    url('../../src/fonts/proximanova_regular.woff2') format('woff2'),
+}
