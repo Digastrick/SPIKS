@@ -1070,6 +1070,20 @@ input[type=checkbox]:checked::before {
     grid-column: 2/10;
   }
 }
+  @media(max-width:700px){
+    .results-wrapper{
+    margin-top: 50px;
+    overflow: scroll;
+    grid-column: 2/5;
+    }
+  }
+  @media(max-width:400px){
+    .results-wrapper{
+    margin-top: 50px;
+    overflow: scroll;
+    grid-column: 2/8;
+    }
+  }
 .section__start {
   background-color: #171722;
   color: white;
